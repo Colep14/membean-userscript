@@ -235,7 +235,7 @@
                 if(document.getElementById("toggleGodMode").innerHTML=="enable no wrong words"||GM_getValue("buttonOn",false)!=true){
                     GM_setValue("buttonOn",true);
                 }else if(document.getElementById("toggleGodMode").innerHTML=="disable no wrong words"||GM_getValue("buttonOn",false)!=false){
-                    GM_setValue("buttonOn",false);
+                    GM_setValue("buttonOn",true);
                 }
             },500);
 
